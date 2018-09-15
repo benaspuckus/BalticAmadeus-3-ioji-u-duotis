@@ -119,14 +119,13 @@ namespace BalticAmadeus_3
     		.TakeWhile(x => x.Item1 == first)
    		 	.Sum(x => x.Item3);
 				double kiek = (betweensum / betweencount) * 100;
-				kiek = Math.Round(kiek, 2);
 				percent.Add(Tuple.Create<string, double>(first, kiek));
 				filtered.RemoveAll(item => item.Item1 == first);
 			}
 			var most = percent.Max(x => x.Item2); //randamas procentaliai laisviausias darželis
 			var lang = percent.Max(x => x.Item1);
 			using (StreamWriter outputFile = new StreamWriter(@"C:\FreeSpace.txt", true)) {
-				outputFile.WriteLine(string.Format("{0:0.00}", most + "% - " + lang));
+				outputFile.WriteLine(string.Format("{0:0.00}", most) + "% - " + lang);
 			}
 				
 		}
