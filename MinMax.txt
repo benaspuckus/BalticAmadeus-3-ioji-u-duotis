@@ -1,0 +1,2 @@
+0 - mažiausias
+144 - didžiausias

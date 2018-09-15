@@ -1,0 +1,111 @@
+Žirmūnėliai:
+"Nuo 4 iki 6 metų"; Kalba:Lietuvių; 2 vaikai; 2 laisvos vietos
+Žilvitis:
+"Nuo 5 iki 7 metų"; Kalba:Lietuvių; 42 vaikai; 3 laisvos vietos
+Žiburėlis:
+"Nuo 5 iki 6 metų"; Kalba:Lietuvių; 39 vaikai; 3 laisvos vietos
+Žemyna:
+"Nuo 4 iki 5 metų"; Kalba:Lietuvių; 69 vaikai; 3 laisvos vietos
+Zylutė:
+"Nuo 6 iki 7 metų"; Kalba:Lietuvių; 1 vaikai; 4 laisvos vietos
+"Nuo 2 iki 4 metų"; Kalba:Lenkų; 24 vaikai; 3 laisvos vietos
+Voveraitė:
+"Nuo 1,5 iki 3 metų"; Kalba:Lietuvių; 77 vaikai; 3 laisvos vietos
+"Nuo 3 iki 4 metų"; Kalba:Lietuvių; 4 vaikai; 4 laisvos vietos
+Volungė:
+"Nuo 1,5 iki 3 metų"; Kalba:Lietuvių; 67 vaikai; 3 laisvos vietos
+"Nuo 4 iki 6 metų"; Kalba:Lietuvių; 1 vaikai; 2 laisvos vietos
+"Nuo 2 iki 4 metų"; Kalba:Lietuvių; 31 vaikai; 3 laisvos vietos
+Vilkpėdės:
+"Nuo 4 iki 5 metų"; Kalba:Lietuvių; 23 vaikai; 3 laisvos vietos
+Vaidilutė:
+"Nuo 4 iki 5 metų"; Kalba:Lietuvių; 61 vaikai; 3 laisvos vietos
+Šypsena:
+"Nuo 5 iki 7 metų"; Kalba:Lenkų; 21 vaikai; 2 laisvos vietos
+Šaltinėlis:
+"Nuo 5 iki 7 metų"; Kalba:Lenkų; 55 vaikai; 3 laisvos vietos
+Svaja:
+"Nuo 3 iki 4 metų"; Kalba:Rusų; 39 vaikai; 2 laisvos vietos
+Spygliukas:
+"Nuo 3 iki 4 metų"; Kalba:Lietuvių; 4 vaikai; 2 laisvos vietos
+"Nuo 4 iki 5 metų"; Kalba:Lietuvių; 18 vaikai; 2 laisvos vietos
+Skroblinukas:
+"Nuo 5 iki 6 metų"; Kalba:Lietuvių; 39 vaikai; 3 laisvos vietos
+Saulėgrąža:
+"Nuo 5 iki 7 metų"; Kalba:Lietuvių; 64 vaikai; 2 laisvos vietos
+Sakalėlis:
+"Nuo 3 iki 7 metų"; Kalba:Lietuvių; 46 vaikai; 3 laisvos vietos
+"Nuo 3 iki 5 metų"; Kalba:Lietuvių; 0 vaikai; 3 laisvos vietos
+Rugelis:
+"Nuo 5 iki 7 metų"; Kalba:Lietuvių; 20 vaikai; 4 laisvos vietos
+Rytas:
+"Nuo 5 iki 6 metų"; Kalba:Lietuvių; 45 vaikai; 2 laisvos vietos
+Rasa:
+"Nuo 5 iki 6 metų"; Kalba:Lietuvių; 22 vaikai; 4 laisvos vietos
+Ramunėlė:
+"Nuo 3 iki 5 metų"; Kalba:Rusų; 21 vaikai; 3 laisvos vietos
+Pumpurėlis:
+"Nuo 3 iki 7 metų"; Kalba:Lietuvių; 20 vaikai; 3 laisvos vietos
+"Nuo 4 iki 5 metų"; Kalba:Lietuvių; 43 vaikai; 2 laisvos vietos
+Pakalnutė:
+"Nuo 6 iki 7 metų"; Kalba:Lietuvių; 2 vaikai; 4 laisvos vietos
+Molinukas:
+"Nuo 6 iki 7 metų"; Kalba:Lietuvių; 1 vaikai; 2 laisvos vietos
+Medynėlis:
+"Nuo 6 iki 7 metų"; Kalba:Lietuvių; 21 vaikai; 3 laisvos vietos
+Liepsnelė:
+"Nuo 4 iki 5 metų"; Kalba:Rusų; 2 vaikai; 4 laisvos vietos
+"Nuo 5 iki 6 metų"; Kalba:Rusų; 20 vaikai; 2 laisvos vietos
+Lašelis:
+"Iki 1,5 metų"; Kalba:Rusų; 23 vaikai; 4 laisvos vietos
+"Nuo 1,5 iki 3 metų"; Kalba:Rusų; 24 vaikai; 3 laisvos vietos
+Lakštingala:
+"Nuo 4 iki 7 metų"; Kalba:Lietuvių; 5 vaikai; 2 laisvos vietos
+Kurpaitė:
+"Nuo 5 iki 7 metų"; Kalba:Rusų; 17 vaikai; 3 laisvos vietos
+Kodėlčiukas:
+"Nuo 3 iki 4 metų"; Kalba:Lietuvių; 45 vaikai; 3 laisvos vietos
+Kaštonas:
+"Nuo 5 iki 7 metų"; Kalba:Lenkų; 25 vaikai; 3 laisvos vietos
+Karusėlė:
+"Nuo 3 iki 4 metų"; Kalba:Lietuvių; 30 vaikai; 2 laisvos vietos
+"Nuo 3 iki 4 metų"; Kalba:Rusų; 31 vaikai; 3 laisvos vietos
+"Nuo 3 iki 6 metų"; Kalba:Lenkų; 26 vaikai; 3 laisvos vietos
+Justinukas:
+"Nuo 1,5 iki 3 metų"; Kalba:Lietuvių; 107 vaikai; 2 laisvos vietos
+Jovarėlis:
+"Nuo 3 iki 7 metų"; Kalba:Lietuvių; 14 vaikai; 3 laisvos vietos
+Gelvonėlis:
+"Nuo 4 iki 7 metų"; Kalba:Lietuvių; 6 vaikai; 2 laisvos vietos
+"Nuo 3 iki 7 metų"; Kalba:Lenkų; 19 vaikai; 2 laisvos vietos
+Drevinukas:
+"Nuo 3 iki 4 metų"; Kalba:Lietuvių; 11 vaikai; 3 laisvos vietos
+Daigelis:
+"Nuo 3 iki 5 metų"; Kalba:Rusų; 38 vaikai; 4 laisvos vietos
+Beržynėlis:
+"Nuo 4 iki 6 metų"; Kalba:Lietuvių; 3 vaikai; 3 laisvos vietos
+Bangelė:
+"Nuo 3 iki 4 metų"; Kalba:Lenkų; 24 vaikai; 4 laisvos vietos
+Atžalėlės:
+"Nuo 6 iki 7 metų"; Kalba:Lietuvių; 3 vaikai; 2 laisvos vietos
+"Nuo 2 iki 6 metų"; Kalba:Lietuvių; 17 vaikai; 2 laisvos vietos
+"Vilniaus Naujininkų mokykla":
+"Nuo 5 iki 7 metų"; Kalba:Lietuvių; 11 vaikai; 4 laisvos vietos
+"Vilniaus „Vilties“ specialioji mokykla-daugiafunkcinis centras":
+"Nuo 3 iki 7 metų"; Kalba:Lietuvių; 9 vaikai; 3 laisvos vietos
+"Prie pasakų parko":
+"Nuo 5 iki 7 metų"; Kalba:Rusų; 11 vaikai; 4 laisvos vietos
+"Nuo 1,5 iki 3 metų"; Kalba:Lenkų; 26 vaikai; 2 laisvos vietos
+"Naminukas (Smėlio g. 13)":
+"Nuo 4 iki 5 metų"; Kalba:Lietuvių; 26 vaikai; 3 laisvos vietos
+"Nuo 2 iki 4 metų"; Kalba:Lietuvių; 34 vaikai; 4 laisvos vietos
+"Lokiuko giraitė":
+"Nuo 6 iki 7 metų"; Kalba:Lietuvių; 1 vaikai; 4 laisvos vietos
+"Lazdynų mokykla":
+"Nuo 2 iki 6 metų"; Kalba:Lietuvių; 18 vaikai; 3 laisvos vietos
+"Gervelė (Stadiono g. 5)":
+"Nuo 1,5 iki 3 metų"; Kalba:Rusų; 21 vaikai; 3 laisvos vietos
+"Nuo 3 iki 5 metų"; Kalba:Rusų; 25 vaikai; 2 laisvos vietos
+"Nuo 5 iki 7 metų"; Kalba:Rusų; 24 vaikai; 3 laisvos vietos
+"Geniukų kalvė":
+"Nuo 5 iki 6 metų"; Kalba:Lietuvių; 48 vaikai; 3 laisvos vietos

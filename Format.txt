@@ -1,0 +1,38 @@
+Ait_1,5-7_Liet
+Atž_1-7_Liet
+Bit_1-7_Liet
+Col_2-4_Liet
+Dre_1-7_Liet
+Du _6-7_Liet
+Du _2-3_Liet
+Du _1-7_Liet
+Gin_1-7_Liet
+Gud_1-7_Liet
+Kod_1,5-3_Liet
+Kod_1-7_Liet
+Pab_6-7_Liet
+Pab_1-7_Liet
+Pag_6-7_Liet
+Pas_2-5_Liet
+Pum_3-5_Liet
+Ras_2-5_Liet
+Rug_1-7_Liet
+Rūt_3-5_Liet
+Sak_3-5_Liet
+Sma_1-7_Liet
+Žem_3-7_Liet
+Žem_1-7_Liet
+Ber_3-4_Liet
+Gėl_1-7_Liet
+Žir_6-7_Liet
+Vol_3-5_Liet
+VĮ _6-7_Liet
+Ąžu_1-7_Liet
+Vil_6-7_Liet
+Vil_3-6_Liet
+Šil_6-7_Rusų
+Ban_3-4_Rusų
+Col_2-6_Lenk
+Sve_1,5-6_Lenk
+Šer_1,5-6_Lenk
+Vil_5-7_Lenk
