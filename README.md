@@ -1,1 +1,1 @@
-# BalticAmadeus-3-ioji-u-duotis
+# BalticAmadeus-3-ioji užduotis
