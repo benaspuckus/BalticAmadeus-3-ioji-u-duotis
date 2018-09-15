@@ -55,6 +55,7 @@ namespace BalticAmadeus_3
 			using (StreamWriter outputFile = new StreamWriter(@"C:\MinMax.txt", true)) {
 				outputFile.WriteLine(min + " - mažiausias");
 			}
+			Console.WriteLine(min + " - mažiausias");
 			return min;
 		}
 		static int Max(List<Darzelis> darzelis) //grąžinama maksimali reikšmė
@@ -63,6 +64,7 @@ namespace BalticAmadeus_3
 			using (StreamWriter outputFile = new StreamWriter(@"C:\MinMax.txt", true)) {
 				outputFile.WriteLine(max + " - didžiausias");
 			}
+			Console.WriteLine(max + " - didžiausias");
 			return max;
 		}
 		static void FormatWords(List<Darzelis> darzelis, string str, string label, string kalba, int min, int max)
