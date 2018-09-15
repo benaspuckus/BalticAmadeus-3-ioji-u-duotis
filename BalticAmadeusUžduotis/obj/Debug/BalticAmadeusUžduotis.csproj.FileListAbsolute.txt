@@ -1,0 +1,6 @@
+C:\Users\MD\Documents\SharpDevelop Projects\BalticAmadeusUžduotis\BalticAmadeusUžduotis\bin\Debug\BalticAmadeusUžduotis.exe.config
+C:\Users\MD\Documents\SharpDevelop Projects\BalticAmadeusUžduotis\BalticAmadeusUžduotis\bin\Debug\BalticAmadeusUžduotis.exe
+C:\Users\MD\Documents\SharpDevelop Projects\BalticAmadeusUžduotis\BalticAmadeusUžduotis\bin\Debug\BalticAmadeusUžduotis.pdb
+C:\Users\MD\Documents\SharpDevelop Projects\BalticAmadeusUžduotis\BalticAmadeusUžduotis\obj\Debug\BalticAmadeusUžduotis.csprojResolveAssemblyReference.cache
+C:\Users\MD\Documents\SharpDevelop Projects\BalticAmadeusUžduotis\BalticAmadeusUžduotis\obj\Debug\BalticAmadeusUžduotis.exe
+C:\Users\MD\Documents\SharpDevelop Projects\BalticAmadeusUžduotis\BalticAmadeusUžduotis\obj\Debug\BalticAmadeusUžduotis.pdb
