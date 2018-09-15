@@ -8,7 +8,7 @@ namespace BalticAmadeus_3
 	{
 		public static void Main(string[] args)
 		{
-			File.WriteAllText(@"C:\MinMax.txt", String.Empty);
+			File.WriteAllText(@"C:\MinMax.txt", String.Empty); //išvalomi .txt duomenys
 			File.WriteAllText(@"C:\Format.txt", String.Empty);
 			File.WriteAllText(@"C:\Group.txt", String.Empty);
 			File.WriteAllText(@"C:\FreeSpace.txt", String.Empty);
@@ -28,11 +28,12 @@ namespace BalticAmadeus_3
 			Console.Write("Press any key to continue . . . ");
 			Console.ReadKey(true);
 		}
-		static void Read(List<Darzelis> darzelis)
+		static void Read(List<Darzelis> darzelis) //skaitomi duomenys iš .csv failo
 		{
 			using (var reader = new StreamReader(@"C:\test.csv")) {
 				string headerLine = reader.ReadLine();
-				while (!reader.EndOfStream) {
+				while (!reader.EndOfStream) 
+				{
 					var laikinas = new Darzelis();
 					var line = reader.ReadLine();
 					var values = line.Split(';');
@@ -48,7 +49,7 @@ namespace BalticAmadeus_3
 				}
 			}
 		}
-		static int Min(List<Darzelis> darzelis)
+		static int Min(List<Darzelis> darzelis) //grąžinama minimali reikšmė
 		{
 			var min = darzelis.Min(x => x.VaikuSkaicius);
 			using (StreamWriter outputFile = new StreamWriter(@"C:\MinMax.txt", true)) {
@@ -56,7 +57,7 @@ namespace BalticAmadeus_3
 			}
 			return min;
 		}
-		static int Max(List<Darzelis> darzelis)
+		static int Max(List<Darzelis> darzelis) //grąžinama maksimali reikšmė
 		{
 			var max = darzelis.Max(x => x.VaikuSkaicius);
 			using (StreamWriter outputFile = new StreamWriter(@"C:\MinMax.txt", true)) {
@@ -66,9 +67,12 @@ namespace BalticAmadeus_3
 		}
 		static void FormatWords(List<Darzelis> darzelis, string str, string label, string kalba, int min, int max)
 		{
-			foreach (var i in darzelis) {
-				if (min == i.VaikuSkaicius) {	
-					if (i.Pavadinimas[0] == '"') {
+			foreach (var i in darzelis) 
+			{
+				if (min == i.VaikuSkaicius) //ieško visų darželių, turinčių minimalią reikšmę
+				{	
+					if (i.Pavadinimas[0] == '"') //panaikina kabutes
+					{
 						i.Pavadinimas = i.Pavadinimas.Substring(1);
 					}
 					str = i.Pavadinimas.Substring(0, 3);
@@ -78,11 +82,13 @@ namespace BalticAmadeus_3
 					label = label.Replace(" iki ", "-");
 					kalba = i.Kalba.Substring(0, 4);
 					using (StreamWriter outputFile = new StreamWriter(@"C:\Format.txt", true)) {
-						outputFile.WriteLine(str + "_" + label + "_" + kalba);
+						outputFile.WriteLine(str + "_" + label + "_" + kalba); //išrašomasa apkarpytas sakinys į .txt failą
 					}
 				}
-				if (max == i.VaikuSkaicius) {	
-					if (i.Pavadinimas[0] == '"') {
+				if (max == i.VaikuSkaicius) //ieško pagal didžiausią reikšmę
+				{	
+					if (i.Pavadinimas[0] == '"') //panaikina kabutes
+					{
 						i.Pavadinimas = i.Pavadinimas.Substring(1);
 					}
 					str = i.Pavadinimas.Substring(0, 3);
@@ -92,17 +98,19 @@ namespace BalticAmadeus_3
 					label = label.Replace(" iki ", "-");
 					kalba = i.Kalba.Substring(0, 4);
 					using (StreamWriter outputFile = new StreamWriter(@"C:\Format.txt", true)) {
-						outputFile.WriteLine(str + "_" + label + "_" + kalba);
+						outputFile.WriteLine(str + "_" + label + "_" + kalba); //išrašo apkarpytą sakinį
 					}
 				}
 			}
 		}
 		static void MostFreeSpace(List<Darzelis> darzelis, List<Tuple<string,int,int>>filtered, List<Tuple<string,double>> percent)
 		{
-			foreach (var i in darzelis) {
+			foreach (var i in darzelis) 
+			{
 				filtered.Add(Tuple.Create<string, int,int>(i.Kalba, i.LaisvosVietos, i.VaikuSkaicius));
 			}
-			while (filtered.Count > 0) {
+			while (filtered.Count > 0) //vykdo ciklą, kol list'as nėra tuščias
+			{
 				var first = filtered[0].Item1;
 				double betweensum = filtered.SkipWhile(x => x.Item1 != first)        
     		.TakeWhile(x => x.Item1 == first)
@@ -115,7 +123,7 @@ namespace BalticAmadeus_3
 				percent.Add(Tuple.Create<string, double>(first, kiek));
 				filtered.RemoveAll(item => item.Item1 == first);
 			}
-			var most = percent.Max(x => x.Item2);
+			var most = percent.Max(x => x.Item2); //randamas procentaliai laisviausias darželis
 			var lang = percent.Max(x => x.Item1);
 			using (StreamWriter outputFile = new StreamWriter(@"C:\FreeSpace.txt", true)) {
 				outputFile.WriteLine(string.Format("{0:0.00}", most + "% - " + lang));
@@ -126,14 +134,14 @@ namespace BalticAmadeus_3
 		{
 			filteredList = darzelis.Where(x => x.LaisvosVietos >= 2 && x.LaisvosVietos <= 4).ToList();
 			var query =
-				from darzel in filteredList
+				from darzel in filteredList //sugrupuojami pagal pavadinimą
 				group darzel by darzel.Pavadinimas into newGroup
 				orderby newGroup.Key
 				select newGroup;
-			query = query.OrderByDescending(x => x.Key);
+			query = query.OrderByDescending(x => x.Key); //rikiuojama nuo z iki a
 			foreach (var nameGroup in query) {
 				using (StreamWriter outputFile = new StreamWriter(@"C:\Group.txt", true)) {
-					outputFile.WriteLine(nameGroup.Key + ":");
+					outputFile.WriteLine(nameGroup.Key + ":"); //spausdinami duomenys į .txt failą
 				}
 				foreach (var darzel in nameGroup) {
 					using (StreamWriter outputFile = new StreamWriter(@"C:\Group.txt", true)) {
@@ -144,7 +152,7 @@ namespace BalticAmadeus_3
 		}
 	}
 
-	public class Darzelis
+	public class Darzelis //darželių klasė
 	{
 		public int DarzelioId { get; set; }
 		public string Pavadinimas { get; set; }
